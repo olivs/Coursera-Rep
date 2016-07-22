@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+
+#header-nav{
+	color:blue;
+	background-color: #303f44;
+	border-bottom: 3px solid black;
+}
+
+.navbar-brand{
+	padding-left: 10px;
+}
+
+p{
+	padding:5px;
+}
+
+.section {
+	
+	background-color: #F0F8FF; 
+	border: 1px solid black;   
+	padding:5px;
+	margin:10px;      
+ }
+
+.row{
+	margin:10px;
+}
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+    height:auto;   
+  }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    float: left;
+    width:100%;
+    height: auto;
+  }
+}
+/********** Mobile View **********/
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+}
