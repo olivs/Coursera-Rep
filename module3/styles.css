@@ -6,16 +6,21 @@ body {
 	background-color: gray;
 }
 
+#menu{
+	margin-bottom: 35px;
+}
+.
+
 #header-nav{
-	color:blue;
+	
 	background-color: #303f44;
 	border: 3px solid black;
 	border-radius:0;
-	height:100px;
+	min-height:70px;
 }
 
 .navbar-brand{
-	padding-top: 25px;
+	margin-top: 15px;
 }
 
 .navbar-brand h1{
@@ -23,6 +28,18 @@ body {
 	margin-bottom: 0;
 	line-height: .75;
  }
+
+button.navbar-toggle.collapsed{
+  border-color: #000000;
+  margin-top:15px;
+}
+
+ul{
+	
+
+}
+
+
 p{
 	padding:5px;
 }
